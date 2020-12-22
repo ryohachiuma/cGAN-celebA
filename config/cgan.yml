@@ -1,0 +1,18 @@
+log_name: 'cgan'
+seed: 0
+batch_size: 512
+noise_size: 1024
+max_epoch: 500
+lr_G: 0.0002
+lr_D: 0.0002
+save_interval: 1
+attribute: ['Big_Nose', 'Male']
+gan_mode: 'wgan'
+loss_weights: [100, 10, 10]
+max_dim: 1024
+num_layers: 5
+shortcut_layers: 0
+img_size: 128
+crop_size: 170
+disc_epoch: 5
+vis_num: 40
