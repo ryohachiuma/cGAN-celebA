@@ -1,5 +1,12 @@
 # cGAN-celebA
 
+Requirements:
+pytorch==1.6.0
+addict
+yaml
+tensorboard
+
+
 Create symbolic link to the celebA dataset.
 ```
 ln -s PATH dataset
